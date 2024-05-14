@@ -12,7 +12,7 @@ route.get('/getBooks',(req, res)=>{
  })
 
 })
-/* get method */
+/* methods */
 route.get('/updateBooks',(req, res)=>{
     updateBooks().then(data=>{
        console.log(data)
